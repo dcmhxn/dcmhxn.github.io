@@ -1,4 +1,26 @@
-h1 {color: #990033; font-size 36pt; font-family: cursive}
+h1 
+{
+    background: darkseagreen;
+    border: 5px solid; 990033
+    width: 700px;
+    height: 100px;
+    padding: 20px;
+    color: #990033; 
+    font-size 72pt; 
+    font-family: cursive;
+    text-align: center;
+}
+img 
+{
+    position: relative;
+    right: 10px;
+    top: 10px;
+    float:right;
+}
+
+body
+{background-color: antiquewhite;}
+
 
 h3 {color: blue; font-size 24pt;}
 
@@ -8,6 +30,9 @@ li {color: #990033;}
 
 p {font-size 17pt;}
 
-footer {font-size: 10pt;} 
+footer 
+{
+    border-top: 2px solid darkseagreen;
+    font-size: 10pt;
+} 
 
-img {float: right}
