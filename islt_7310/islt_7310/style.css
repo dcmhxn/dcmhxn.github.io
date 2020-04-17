@@ -1,48 +1,54 @@
 
 /*
-
 Description: Primary style sheet for Drew Mulvey Professional Resume Website
-
 Author: Drew Mulvey
-
 Date: Spring 2020
-
 Validated: April 12, 2020 - Chrome, Safari
-
 */
 
 h1 
 {
     background: darkseagreen;
-    border: 5px solid; 990033
-    width: 700px;
+    border-top: 3px solid #990033;
+    border-right: 3px solid #990033;
+    border-left: 3px solid #990033;
+    width: 667px;
     height: 100px;
     padding: 10px;
     color: #990033; 
-    font-size 72pt; 
+    font-size: 42pt;
     font-family: cursive;
     text-align: center;
+    margin-bottom: 0;
+    margin-top: 0;
+    margin-left: 0;
+    margin-right: 0;
 }
 
 img 
 {
-    float: left;
-    padding-top: 10px;
-    padding-left: 10px;
+    float: right;
+    padding-top: 3px;
+    padding-right: 5px;
+    padding-bottom: 3px;
 }
 
 body
 {
     background-color: antiquewhite;
-    margin: 15px;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding: 5px;
 }
 
-h3 {color: #990033; font-size 24pt;}
+h3 {color: #990033; font-size: 24pt;}
 
-ul {font-size 18pt; font-family: sans-serif}
+ul {font-size: 18pt; font-family: sans-serif;}
 li {color: blue;}
 
-p {font-size 18pt;}
+main {font-family: serif; color: #990033;}
+
+p {font-size: 18pt;}
 
 footer 
 {
