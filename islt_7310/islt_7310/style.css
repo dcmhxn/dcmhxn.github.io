@@ -109,11 +109,19 @@ blockquote {
 
 footer {border-top: 1px solid #990033; clear:both;}
 footer {margin-left: 0;}
-footer {padding-top: 10px;
-        padding-bottom: 10px;
-        padding-left: 2%;
-        font-size: 75%;
-        width: 98%;
+footer {font-size: 145%;
+        color: blue;
+        width: 90%;
+        height: 100px;
+        padding-top: 10px;
+        padding-bottom: 40px;
+        padding-left: 10%;
+    
+        background-image: url(images/david-cooper-tfJjinfJYWg-unsplash.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center center;
+        text-align:left;
 }
 
 
