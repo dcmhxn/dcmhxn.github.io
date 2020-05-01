@@ -50,7 +50,7 @@ h1
     border-bottom: 1px solid #990033;
 }
 
-img 
+aside img 
 {
     padding-left: 7%;
     padding-top: 7%;
@@ -118,16 +118,16 @@ footer {margin-left: 0;}
 footer {font-size: 145%;
         color: blue;
         width: 95%;
-        height: 100px;
-        padding-top: 10px;
-        padding-bottom: 60px;
+        height: 50px;
+        padding-top: 20px;
+        padding-bottom: 10px;
         padding-left: 5%;
     
         background-image: url(images/david-cooper-tfJjinfJYWg-unsplash.jpg);
         background-size: cover;
         background-repeat: no-repeat;
         background-position: center center;
-        text-align:left;
+        text-align:center;
 }
 
 /*Print Stylesheet Week 6*/
@@ -194,10 +194,15 @@ footer {font-size: 145%;
     }
     
     footer {
+        clear: both;
         width: 100%;
         border: none;
         margin: 0;
         font-size: 12pt;
+    }
+    
+    footer img{
+        display: none;
     }
     
     @page {
