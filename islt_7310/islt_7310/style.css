@@ -1,12 +1,9 @@
 
 /*
 Description: Primary style sheet for Drew Mulvey Professional Resume Website
-
 Author: Drew Mulvey
-
 Date: Spring 2020
-
-Validated: April 26, 2020 - Chrome, Firefox
+Validated: May 1, 2020 - Chrome, Firefox
 */
 
 /*Custom font Week 6*/
@@ -63,6 +60,9 @@ h2 {font-size: 200%;}
 h3 {color: #990033; font-size: 150%;}
 h3 {padding-bottom: 0px;}
 
+h4 {color: blue;}
+h4 {font-size: 125%}
+
 ul {font-size: 100%; font-family: sans-serif; margin-left: 1%;}
 li {color: blue;}
 li {padding-bottom: 5px;}
@@ -115,7 +115,7 @@ blockquote {
 
 footer {border-top: 1px solid #990033; clear:both;}
 footer {margin-left: 0;}
-footer {font-size: 145%;
+footer {font-size: 100%;
         color: blue;
         width: 95%;
         height: 50px;
@@ -129,6 +129,36 @@ footer {font-size: 145%;
         background-position: center center;
         text-align:center;
 }
+
+/*Transform Week 6*/
+.phone {
+    width: 25px;
+    height: auto;
+}
+.phonebig {
+    position: absolute;
+    width: 0;
+    -webkit-transition:width 0.3s linear 1s;
+    transition:width 0.3s linear 0s; z-index: 10;
+}
+.phone:hover + .phonebig{
+    width:50px;
+}
+    
+.email {
+    width: 25px;
+    height: auto;
+}
+.emailbig {
+    position: absolute;
+    width: 0;
+    -webkit-transition:width 0.3s linear 1s;
+    transition:width 0.3s linear 0s; z-index: 10;
+}
+.email:hover + .emailbig{
+    width:50px;
+}
+
 
 /*Print Stylesheet Week 6*/
 
