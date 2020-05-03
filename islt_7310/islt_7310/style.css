@@ -21,6 +21,7 @@ body {
     background-color: antiquewhite;
     padding: 0;
     font-size: 100%; /* base font size to percent p. 292 week 5*/
+    font-family: sans-serif;
     width: 100%;
     max-width: 1024px;
     margin: 0 auto;
@@ -51,29 +52,30 @@ aside img
 {
     padding-left: 7%;
     padding-top: 7%;
-    max-width: 400px;
+    max-width: 100%;
 }
 
 h2 {color: #990033;}
 h2 {font-size: 200%;}
+h2 {padding-bottom: 0;}
 
 h3 {color: #990033; font-size: 150%;}
 h3 {padding-bottom: 0px;}
 
 h4 {color: blue;}
 h4 {font-size: 125%}
+h4 {padding-bottom: 0}
 
 ul {font-size: 100%; font-family: sans-serif; margin-left: 1%;}
-li {color: blue;}
+li {color: #990033;}
 li {padding-bottom: 5px;}
 
 /* CSS box model, no border wk 4*/
 main {float:left;}
-main {border: none;}
 main {width: 58%;}
-main {font-family: serif; color: #990033;}
+main {font-family: sans-serif; color: #990033;}
 main {margin: 2%;}
-main {padding: 5px;}
+main {padding-left: 5px;}
 main {min-height: 360px;}
 
 /* CSS pseudo class, seudo element wk 4*/
@@ -84,20 +86,61 @@ main p:last-child::first-line {text-indent: 2em;}*/
 
 aside {float: left;} 
 aside {width: 35%;}
-aside {border-right: 1px solid #990033;}
+aside {height: 100%;}
+aside {line-height: 20px;}
+/*
+aside {border-right: 1px solid #990033;}*/
 aside {margin-left: 1%;}
-aside {height: 900px;}
 
-p {font-size: 140%;}
+
+p {font-size: 130%;}
 p {margin-bottom: 10px;}
 p {margin-top: 10px;}
+p {line-height: 30px;}
 
 blockquote { 
-    padding-top: 370px;
+    padding-top: 10px;
     padding-bottom: 10px;
     font-family: "PT Sans Narrow";
     font-size: 120%;
-    color: #990033;}
+    color: blue;
+    text-align: center;
+}
+#Exp1 {
+        margin-left: 2%;
+        margin-right: 2%;
+        padding-left: 10px;
+        padding-right: 10px;
+        width: 95%;
+        border: 2px solid #990033;
+        background-color: antiquewhite;
+        margin-top: 5%;
+        margin-bottom: 5%;
+}
+
+#Exp2 {
+        margin-left: 2%;
+        margin-right: 2%;
+        padding-left: 10px;
+        padding-right: 10px;
+        width: 95%;
+        border: 2px solid #990033;
+        background-color: antiquewhite;
+        margin-top: 5%;
+        margin-bottom: 5%;
+}
+
+#Exp3 {
+        margin-left: 2%;
+        margin-right: 2%;
+        padding-left: 10px;
+        padding-right: 10px;
+        width: 95%;
+        border: 2px solid #990033;
+        background-color: antiquewhite;
+        margin-top: 5%;
+        margin-bottom: 5%;
+}
 
 .iframe-container{
   position: relative;
@@ -119,16 +162,19 @@ footer {font-size: 100%;
         color: blue;
         width: 95%;
         height: 50px;
-        padding-top: 20px;
-        padding-bottom: 10px;
+        padding-top: 3%;
+        padding-bottom: 3%;
         padding-left: 5%;
-    
         background-image: url(images/david-cooper-tfJjinfJYWg-unsplash.jpg);
         background-size: cover;
         background-repeat: no-repeat;
         background-position: center center;
         text-align:center;
 }
+
+footer a:link {color: blue;}
+footer a:hover {color: antiquewhite;}
+footer a {text-decoration: none; font-size: 100%;}
 
 /*Transform Week 6*/
 .phone {
@@ -228,7 +274,7 @@ footer {font-size: 100%;
         width: 100%;
         border: none;
         margin: 0;
-        font-size: 12pt;
+        font-size: 10pt;
     }
     
     footer img{

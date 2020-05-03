@@ -43,7 +43,7 @@ nav ul li a {
     
     color: #990033;
     
-    width: 100px;
+    width: 100%;
     
     font-size: 120%;
     
@@ -55,7 +55,7 @@ nav ul li a {
 
     nav li a:hover {
     
-       color: blue;
+       color: antiquewhite;
      
 }
 
@@ -63,11 +63,11 @@ nav ul li a {
     
     display: none;
     
-    width: 100px;
+    width: 100%;
     
     position: absolute;
     
-    background-color: darkseagreen;
+    background-color: #4b884b;
     
     padding: 10px;
     
@@ -82,7 +82,7 @@ nav ul li a {
 
 nav ul li ul li{
     
-     width: 100px;
+     width: 100%;
     
      border-radius: 2px;
  
@@ -96,7 +96,7 @@ nav ul li ul li a {
 
  nav ul li ul li a:hover{
    
-    background-color: #bca48f;
+    background-color: #990033;
  
 }
 
@@ -121,26 +121,27 @@ nav ul li ul li a {
    
   }
     
- 
 aside {
 position: relative;
 margin-top: 10%;
 width: 97%;
-}  
+} 
+    
 ul {
   padding-bottom: 1%;
 }
 #hamburger {
-      display: block;
-        padding-left: 20px;
-        width: 26px;
-        font-size: 2em;    
+    display: block;
+    padding-left: 5px;
+    width: 26px;
+    font-size: 2em;
 	}
+    
   #menu-icon {
       
-     display: block;
-        padding-left: 20px;
-        width: 26px;
+    display: block;
+    padding-left: 20px;
+    width: 26px;
     }
  
 #menu-icon a {
@@ -158,12 +159,12 @@ height: 50px;
    
     padding: 17px;
      
-    background: #bca48f;
-
+    background: #4b884b;
+      
     /* right: 10px;
 
     top: 65px; */  
-    width: 55%;
+    width: 35%;
     z-index:1000;
 }
 
@@ -173,7 +174,7 @@ height: 50px;
 
  nav ul li ul {
     
-      background: #bca48f;
+      background: #4b884b;
 }
 
     
