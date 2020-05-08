@@ -2,7 +2,7 @@
 Description: Navigation style sheet for Drew Mulvey Professional Resume Website
 Author: Drew Mulvey
 Date: Spring 2020
-Validated: May 1, 2020 - Chrome, Firefox
+Validated: May 8, 2020 - Chrome, Firefox
 */
 
 
@@ -22,7 +22,6 @@ nav {
 
 nav ul {
     float: left;
-
            }
 
 /* Floatleft here makes memu items horizontal*/
@@ -109,22 +108,22 @@ nav ul li ul li a {
 
 #menu-icon {
    
- display: none;
-}
+    display: none;
+    text-align: center;
+    width: 90%;
 
+}
 
 /*media query for mobile website wk 5*/
 
 @media only screen and (max-width: 640px) {
  
-    header{
-       
-        position: relative;
+header {
+position: relative;
   }
     
 aside {
 position: relative;
-margin-top: 10%;
 width: 97%;
 } 
 
@@ -133,37 +132,36 @@ position: relative;
 width: 97%;
     }
     
-    h1 {
-    font-size: 400%;
+h1 {
+font-size: 400%;
     }
     
 ul {
-  padding-bottom: 1%;
+padding-bottom: 1%;
 }
     
 #hamburger {
     display: block;
-    padding-left: 5px;
+    padding-left: 20px;
     width: 50px;
-    font-size: 2em;
+    font-size: 200%;
 	}
     
 #menu-icon {
-      
     display: block;
     padding-left: 20px;
-    width: 50px;
+    width: 100px;
     }
  
 #menu-icon a {
-     margin-top: 82%;
+    margin-top: 82%;
 }
- nav {
-height: 50px;
+ 
+nav {
+    height: 50px;
 }
 
-  nav ul, nav:active ul {
-  
+nav ul, nav:active ul {
     display: none;
       
     position: absolute;
@@ -175,7 +173,9 @@ height: 50px;
     /* right: 10px;
 
     top: 65px; */  
-    width: 35%;
+    
+    width: 40%;
+    
     z-index:1000;
 }
 
@@ -187,9 +187,10 @@ height: 50px;
  nav ul li ul {
 
     background: #4b884b;
+    width: 35%;
+     
 }
-
-    
+   
 nav:hover ul {
 
     display: block;
@@ -206,8 +207,6 @@ nav li {
     margin: 0;
  
    }
-
-
 
 }
 
