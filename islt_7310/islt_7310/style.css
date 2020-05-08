@@ -195,7 +195,7 @@ figure, figcaption {
         tbody tr:nth-child(even) td{
             background-color:#4b884b;
         }
-/*Contact form week 7*/
+    /*Contact form week 7*/
 
  .container {                                         
       float: left;
@@ -209,11 +209,13 @@ figure, figcaption {
       justify-content: space-evenly;
       align-items: center;}
     
-    .fields {width: 380px; height: 25px; font-family:"arial";}
+    #firstname {width: 380px; height: 25px; font-family:"arial";}
+    #lastname {width: 380px; height: 25px; font-family:"arial";}
+    #email {width: 380px; height: 25px; font-family:"arial";}
     
     #message {width: 380px;height: 75px; font-family: "arial"}
     
-    #button {background-color: #990033;
+    #submit {background-color: #990033;
         margin: 5px 150px;
         font-family: arial, sans-serif;
         font-weight: bold;
@@ -226,7 +228,6 @@ figure, figcaption {
         cursor: pointer;
     }
        
-
 footer {border-top: 1px solid #990033; clear:both;}
 footer {margin-left: 0;}
 footer {font-size: 100%;
