@@ -50,6 +50,8 @@ nav ul li a {
     text-decoration: none;
     
     padding: 30px;  /* space between headings on nav bar*/
+    
+    cursor: pointer;
    
 }
 
@@ -117,8 +119,7 @@ nav ul li ul li a {
  
     header{
        
-  position: relative;
-   
+        position: relative;
   }
     
 aside {
@@ -126,22 +127,32 @@ position: relative;
 margin-top: 10%;
 width: 97%;
 } 
+
+main {
+position: relative;
+width: 97%;
+    }
+    
+    h1 {
+    font-size: 400%;
+    }
     
 ul {
   padding-bottom: 1%;
 }
+    
 #hamburger {
     display: block;
     padding-left: 5px;
-    width: 26px;
+    width: 50px;
     font-size: 2em;
 	}
     
-  #menu-icon {
+#menu-icon {
       
     display: block;
     padding-left: 20px;
-    width: 26px;
+    width: 50px;
     }
  
 #menu-icon a {
@@ -169,18 +180,19 @@ height: 50px;
 }
 
 .noMobile li {
-   display: none;
+   
+    display: none;
 }
 
  nav ul li ul {
-    
-      background: #4b884b;
+
+    background: #4b884b;
 }
 
     
 nav:hover ul {
 
-        display: block;
+    display: block;
     }
     
 nav li {
