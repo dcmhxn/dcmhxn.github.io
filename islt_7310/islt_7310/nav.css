@@ -40,7 +40,7 @@ nav ul li a {
     
     font-family: sans-serif;
     
-    color: #990033;
+    color: antiquewhite;
     
     width: 100%;
     
@@ -56,7 +56,7 @@ nav ul li a {
 
     nav li a:hover {
     
-       color: antiquewhite;
+       color: #990033;
      
 }
 
@@ -97,7 +97,7 @@ nav ul li ul li a {
 
  nav ul li ul li a:hover{
    
-    background-color: #990033;
+    background-color: #4b884b;
  
 }
 
@@ -117,11 +117,18 @@ nav ul li ul li a {
 /*media query for mobile website wk 5*/
 
 @media only screen and (max-width: 640px) {
- 
-header {
-position: relative;
-  }
+
+h1 {
+    height: 10%;
+    font-size: 300%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    }
     
+header {
+    position: relative;
+  }
+
 aside {
 position: relative;
 width: 97%;
@@ -130,10 +137,7 @@ width: 97%;
 main {
 position: relative;
 width: 97%;
-    }
-    
-h1 {
-font-size: 400%;
+font-size: 80%;
     }
     
 ul {
@@ -150,7 +154,7 @@ padding-bottom: 1%;
 #menu-icon {
     display: block;
     padding-left: 20px;
-    width: 100px;
+    width: 50px;
     }
  
 #menu-icon a {
